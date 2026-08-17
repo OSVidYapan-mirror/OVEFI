@@ -1,0 +1,9 @@
+[package]
+name = "OVEFI"
+version = "0.4.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.29"
+uefi = { version = "0.36.1", features = ["global_allocator", "logger", "panic_handler"] }
+uefi-input2 = "36.1.16"
